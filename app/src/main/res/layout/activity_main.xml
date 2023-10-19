@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="296dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="64dp"
+        android:background="#0AE315"
+        android:text="0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="363dp"
+        android:layout_height="385dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultado"
+        app:layout_constraintVertical_bias="0.398">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="7"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="8"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="9"
+                android:textSize="35sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="4"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="35sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="35sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button0"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_suma"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="+"
+                android:textColor="#0AE315"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_resta"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="-"
+                android:textColor="#0AE315"
+                android:textSize="35sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_borrar"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="C"
+                android:textColor="#0AE315"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_multiplicar"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="X"
+                android:textColor="#0AE315"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_dividir"
+                style="@android:style/Widget.Material.Light.Button.Toggle"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="/"
+                android:textColor="#0AE315"
+                android:textSize="35sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:backgroundTint="#16E41E"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
